@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title">Dynamic Resume Builder By Farheen Zehra</h1>
+    
+    <!-- Form Section -->
+    <div class="form-section">
+      <form id="resume-form">
+        <div class="box">
+          <h2 class="section-title personal-info">Personal Information</h2>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+          <label for="father-name">Father's Name:</label>
+          <input type="text" id="father-name" required>
+          <label for="age">Age:</label>
+          <input type="number" id="age" required>
+          <label for="gender">Gender:</label>
+          <select id="gender" required>
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <!-- Education Section -->
+        <div class="box">
+          <h2 class="section-title education">Education</h2>
+          <label for="education">Education Details:</label>
+          <textarea id="education" required></textarea>
+        </div>
+
+        <!-- Work Experience Section -->
+        <div class="box">
+          <h2 class="section-title experience">Work Experience</h2>
+          <label for="experience">Experience Details:</label>
+          <textarea id="experience" required></textarea>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="box">
+          <h2 class="section-title skills">Skills</h2>
+          <label for="skills">Skills:</label>
+          <textarea id="skills" required></textarea>
+        </div>
+
+        <button type="submit">Generate Resume</button>
+      </form>
+    </div>
+
+    <!-- Generated Resume Section -->
+    <div id="resume-output" class="resume-output">
+      <h2>Your Resume:</h2>
+      <div id="generated-resume"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

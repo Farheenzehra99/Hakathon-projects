@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #442d02;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    background: #eeebe8;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(7, 7, 7, 0.1);
+  }
+  
+  .main-title {
+    text-align: center;
+    color: #6d4804;
+  }
+  
+  .box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #6d4804;
+    border-radius: 8px;
+    background-color: #f0e7d5;
+  }
+  
+  .section-title {
+    font-size: 20px#6d4804;
+    color: #6d4804;
+    margin-bottom: 10px;
+  }
+  
+  .personal-info {
+    color: #6d4804;
+    text-decoration: underline;
+  }
+  
+  .education {
+    color: #6d4804;
+    text-decoration: underline;
+  }
+  
+  .experience {
+    color: #6d4804;
+    text-decoration: underline;
+  }
+  
+  .skills {
+    color: #6d4804;
+    text-decoration: underline;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+
+  }
+  
+  button {
+    background-color: #6d4804;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    
+  }
+  
+  button:hover {
+    background-color: #d19d50;
+    color: #442d02;
+  }
+  
+  .resume-output {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
